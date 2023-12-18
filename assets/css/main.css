@@ -278,38 +278,38 @@ main {
 
 /* ******************************** */
 
-.about-benefits {
+.benefits {
     padding: 40px 0;
 }
 
-.about-benefits .row {
+.benefits .row {
     gap: 40px;
 }
 
-.about-benefits .benefits-details {
+.benefits .benefits-details {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.about-benefits .benefits-details h1 {
+.benefits .benefits-details h1 {
     font-size: 28px;
     padding: 10px 0;
 }
 
-.about-benefits .benefits-details div {
+.benefits .benefits-details div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.about-benefits .benefits-details p {
+.benefits .benefits-details p {
     font-size: 12px;
     color: #59595a;
     width: 75%;
 }
 
-.about-benefits .benefits-details a {
+.benefits .benefits-details a {
     background-color: white;
     font-size: 12px;
     font-weight: 700;
@@ -321,14 +321,14 @@ main {
     -o-border-radius: 5px;
 }
 
-.about-benefits .benefits {
+.benefits .benefit {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
 }
 
-.about-benefits .benefits .benefit {
+.benefits .benefit .card {
     background-color: white;
     width: calc((100% - (30px * 2)) / 3);
     display: flex;
@@ -342,32 +342,32 @@ main {
     -o-border-radius: 10px;
 }
 
-.about-benefits .benefits .benefit span {
+.benefits .benefit .card span {
     text-align: end;
     font-size: 48px;
     font-weight: 700;
 }
 
-.about-benefits .benefits .benefit .benefit-info {
+.benefits .benefit .card .benefit-info {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.about-benefits .benefits .benefit h4 {
+.benefits .benefit .card h4 {
     font-size: 18px;
 }
 
-.about-benefits .benefits .benefit p {
+.benefits .benefit .card p {
     font-size: 14px;
 }
 
-.about-benefits .benefits .benefit a {
+.benefits .benefit .card a {
     display: flex;
     justify-content: flex-end;
 }
 
-.about-benefits .benefits .benefit a img {
+.benefits .benefit .card a img {
     width: 25px;
     box-sizing: content-box;
     padding: 15px;
@@ -381,38 +381,38 @@ main {
 
 /* ******************************* */
 
-.about-courses {
+.courses {
     padding: 40px 0;
 }
 
-.about-courses .row {
+.courses .row {
     gap: 40px;
 }
 
-.about-courses .courses-details {
+.courses .courses-details {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.about-courses .courses-details h1 {
+.courses .courses-details h1 {
     font-size: 28px;
     padding: 10px 0;
 }
 
-.about-courses .courses-details div {
+.courses .courses-details div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.about-courses .courses-details p {
+.courses .courses-details p {
     font-size: 12px;
     color: #59595a;
     width: 75%;
 }
 
-.about-courses .courses-details a {
+.courses .courses-details a {
     background-color: white;
     font-size: 12px;
     font-weight: 700;
@@ -424,14 +424,14 @@ main {
     -o-border-radius: 5px;
 }
 
-.about-courses .courses {
+.courses .course {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
 }
 
-.about-courses .courses .course {
+.courses .course .card {
     width: calc((100% - 40px) / 2);
     padding: 50px;
     background-color: white;
@@ -445,7 +445,7 @@ main {
     -o-border-radius: 5px;
 }
 
-.about-courses .courses .course img {
+.courses .course .card img {
     width: 100%;
     height: 250px;
     border-radius: 10px;
@@ -457,13 +457,13 @@ main {
     object-fit: cover;
 }
 
-.course .course-info {
+.card .course-info {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.course .course-info .info-1 {
+.card .course-info .info-1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -472,14 +472,14 @@ main {
     gap: 15px;
 }
 
-.course .course-info .info-1 div {
+.card .course-info .info-1 div {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     color: #4c4c4d;
 }
 
-.course .course-info .info-1 div span {
+.card .course-info .info-1 div span {
     padding: 5px 10px;
     border: 1px solid rgba(204, 201, 201, 0.7);
     border-radius: 5px;
@@ -489,26 +489,26 @@ main {
     -o-border-radius: 5px;
 }
 
-.course .course-info .info-1 .instructor {
+.card .course-info .info-1 .instructor {
     font-weight: 700;
 }
 
-.course .course-info .info-2 {
+.card .course-info .info-2 {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.course .course-info .info-2 h4 {
+.card .course-info .info-2 h4 {
     font-size: 18px;
 }
 
-.course .course-info .info-2 p {
+.card .course-info .info-2 p {
     font-size: 13px;
     color: #4c4c4d;
 }
 
-.course .course-info button {
+.card .course-info button {
     padding: 10px 0;
     font-weight: 700;
     background-color: rgba(228, 228, 230, 0.73);
@@ -522,38 +522,38 @@ main {
 
 /* ****************************** */
 
-.about-testimonials {
+.testimonials {
     padding: 40px 0;
 }
 
-.about-testimonials .row {
+.testimonials .row {
     gap: 40px;
 }
 
-.about-testimonials .testimonials-details {
+.testimonials .testimonials-details {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.about-testimonials .testimonials-details h1 {
+.testimonials .testimonials-details h1 {
     font-size: 28px;
     padding: 10px 0;
 }
 
-.about-testimonials .testimonials-details div {
+.testimonials .testimonials-details div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.about-testimonials .testimonials-details p {
+.testimonials .testimonials-details p {
     font-size: 12px;
     color: #59595a;
     width: 75%;
 }
 
-.about-testimonials .testimonials-details a {
+.testimonials .testimonials-details a {
     background-color: white;
     font-size: 12px;
     font-weight: 700;
@@ -565,13 +565,13 @@ main {
     -o-border-radius: 5px;
 }
 
-.testimonials {
+.testimonial {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.testimonials .testimonial {
+.testimonial .card {
     display: flex;
     flex-direction: column;
     width: calc((100% - 30px) / 2);
@@ -584,16 +584,16 @@ main {
     -o-border-radius: 5px;
 }
 
-.testimonials .testimonial .user-testimonial {
+.testimonial .card .user-testimonial {
     padding: 20px;
 }
 
-.testimonials .testimonial p {
+.testimonial .card p {
     font-size: 13px;
     color: #4c4c4d;
 }
 
-.testimonials .testimonial .user {
+.testimonial .card .user {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -603,13 +603,13 @@ main {
     border-top: 1px solid rgba(204, 201, 201, 0.7);
 }
 
-.testimonials .testimonial .user .user-info {
+.testimonial .card .user .user-info {
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.testimonials .testimonial .user .user-info img {
+.testimonial .card .user .user-info img {
     width: 40px;
     height: 40px;
     border-radius: 5px;
@@ -620,7 +620,7 @@ main {
     object-fit: cover;
 }
 
-.testimonials .testimonial .user a {
+.testimonial .card .user a {
     padding: 10px 20px;
     background-color: rgba(228, 228, 230, 0.73);
     border-radius: 5px;
@@ -632,26 +632,26 @@ main {
 
 /* ******************************** */
 
-.about-pricing {
+.pricing {
     padding: 50px 0 80px;
 }
 
-.about-pricing .row {
+.pricing .row {
     gap: 40px;
 }
 
-.about-pricing .pricing-details {
+.pricing .pricing-details {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.about-pricing .pricing-details h1 {
+.pricing .pricing-details h1 {
     font-size: 28px;
     padding: 10px 0;
 }
 
-.about-pricing .pricing-details .pricing-description {
+.pricing .pricing-details .pricing-description {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -659,13 +659,13 @@ main {
     gap: 20px;
 }
 
-.about-pricing .pricing-details p {
+.pricing .pricing-details p {
     font-size: 12px;
     color: #59595a;
     width: 75%;
 }
 
-.about-pricing .pricing-details .pay-plan {
+.pricing .pricing-details .pay-plan {
     display: flex;
     background-color: white;
     padding: 10px;
@@ -676,7 +676,7 @@ main {
     -o-border-radius: 5px;
 }
 
-.about-pricing .pricing-details .pay-plan button {
+.pricing .pricing-details .pay-plan button {
     background-color: white;
     font-size: 12px;
     font-weight: 700;
@@ -689,12 +689,12 @@ main {
     -o-border-radius: 5px;
 }
 
-.about-pricing .pricing-details .pay-plan .active {
+.pricing .pricing-details .pay-plan .active {
     color: white;
     background-color: var(--mainColor);
 }
 
-.pricing {
+.card {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -703,7 +703,7 @@ main {
     background-color: white;
 }
 
-.pricing .monthly,
+.card .monthly,
 .yearly {
     width: calc((100% - 30px) / 2);
     display: flex;
@@ -719,7 +719,7 @@ main {
     -o-border-radius: 5px;
 }
 
-.pricing .monthly .price-plan,
+.card .monthly .price-plan,
 .yearly .price-plan {
     font-size: 18px;
     font-weight: 700;
@@ -735,18 +735,18 @@ main {
     -o-border-radius: 5px;
 }
 
-.pricing .monthly .price span:first-of-type,
+.card .monthly .price span:first-of-type,
 .yearly .price span:first-of-type {
     font-size: 48px;
     font-weight: 700;
 }
 
-.pricing .monthly .price span:last-of-type,
+.card .monthly .price span:last-of-type,
 .yearly .price span:last-of-type {
     color: #4c4c4d;
 }
 
-.pricing .monthly .features,
+.card .monthly .features,
 .yearly .features {
     display: flex;
     flex-direction: column;
@@ -759,14 +759,14 @@ main {
     -o-border-radius: 5px;
 }
 
-.pricing .monthly .features span,
+.card .monthly .features span,
 .yearly .features span {
     text-align: center;
     font-weight: 700;
     padding: 30px 0 0 0;
 }
 
-.pricing .monthly .available-features,
+.card .monthly .available-features,
 .yearly .features .available-features {
     display: flex;
     flex-direction: column;
@@ -775,7 +775,7 @@ main {
     padding: 30px 15px;
 }
 
-.pricing .monthly .features .feature,
+.card .monthly .features .feature,
 .yearly .features .feature {
     display: flex;
     align-items: flex-start;
@@ -791,7 +791,7 @@ main {
     -o-border-radius: 5px;
 }
 
-.pricing .monthly .feature img,
+.card .monthly .feature img,
 .yearly .feature img {
     box-sizing: content-box;
     width: 15px;
@@ -803,17 +803,17 @@ main {
     -o-border-radius: 5px;
 }
 
-.pricing .monthly .feature .yes,
+.card .monthly .feature .yes,
 .yearly .feature .yes {
     background-color: #fbecd8;
 }
 
-.pricing .monthly .feature .no,
+.card .monthly .feature .no,
 .yearly .feature .no {
     border: 1px solid rgba(204, 201, 201, 0.7);
 }
 
-.pricing .monthly button,
+.card .monthly button,
 .yearly button {
     width: 100%;
     padding: 10px 0;
@@ -959,49 +959,49 @@ footer .rights {
         margin: 20px 0 0 0;
     }
 
-    .about-benefits {
+    .benefits {
         padding: 40px 0 20px 0;
     }
 
-    .about-benefits .benefits-details p,
-    .about-courses .courses-details p,
-    .about-testimonials .testimonials-details p {
+    .benefits .benefits-details p,
+    .courses .courses-details p,
+    .testimonials .testimonials-details p {
         width: 80%;
     }
 
-    .about-benefits .benefits .benefit {
+    .benefits .benefit .card {
         width: calc((100% - 30px) / 2);
         gap: 20px;
     }
 
-    .about-courses,
-    .about-testimonials,
-    .about-pricing {
+    .courses,
+    .testimonials,
+    .pricing {
         padding: 20px 0;
     }
 
-    .about-courses .courses .course {
+    .courses .course .card {
         width: calc((100% - 30px) / 2);
         padding: 20px;
     }
 
-    .about-courses .courses .course img {
+    .courses .course .card img {
         height: 220px;
     }
 
-    .about-testimonials .testimonials .testimonial {
+    .testimonials .testimonial .card {
         width: calc((100% -30px) / 2);
     }
 
-    .about-pricing .pricing-details p {
+    .pricing .pricing-details p {
         width: 70%;
     }
 
-    .pricing {
+    .card {
         padding: 2%;
     }
 
-    .pricing .monthly,
+    .card .monthly,
     .yearly {
         width: calc((100% - 30px) / 2);
         padding: 2%;
@@ -1041,55 +1041,59 @@ footer .rights {
         margin: 20px 0 0 0;
     }
 
-    .about-benefits {
+    .benefits {
         padding: 40px 0 20px 0;
     }
 
-    .about-benefits .benefits .benefit {
+    .benefits .benefit .card {
         width: calc((100% - 30px) / 2);
         gap: 20px;
     }
 
-    .about-courses,
-    .about-testimonials,
-    .about-pricing {
+    .courses,
+    .testimonials,
+    .pricing {
         padding: 20px 0;
     }
 
-    .about-courses .courses-details p,
-    .about-testimonials .testimonials-details p {
+    .courses .courses-details p,
+    .testimonials .testimonials-details p {
         width: 80%;
     }
 
-    .about-courses .courses .course {
+    .courses .course .card {
         width: calc((100% - 30px) / 2);
         padding: 20px;
     }
 
-    .about-courses .courses .course img {
+    .courses .course .card img {
         height: 170px;
     }
 
-    .about-courses .course-info .info-1 div,
-    .about-testimonials .testimonials .testimonial,
-    .about-pricing .pricing-details p {
+    .courses .course-info .info-1 div,
+    .pricing .pricing-details p {
         width: 100%;
     }
 
-    .testimonials .testimonial .user-testimonial,
-    .testimonials .testimonial .user {
+    .testimonials .testimonial .card{
+        width: 100%;
+        padding: 0;
+    }
+
+    .testimonial .card .user-testimonial,
+    .testimonial .card .user {
         padding: 20px 50px;
     }
 
-    .about-pricing .pricing-details .pricing-description {
+    .pricing .pricing-details .pricing-description {
         justify-content: center;
     }
 
-    .pricing {
+    .card {
         padding: 8%;
     }
 
-    .pricing .monthly,
+    .card .monthly,
     .yearly {
         width: 100%;
         padding: 4%;
@@ -1135,56 +1139,56 @@ footer .rights {
         margin: 20px 0 0 0;
     }
 
-    .about-benefits {
+    .benefits {
         padding: 40px 0 20px 0;
     }
 
-    .about-benefits .benefits-details div,
-    .about-courses .courses-details div,
-    .about-testimonials .testimonials-details div {
+    .benefits .benefits-details div,
+    .courses .courses-details div,
+    .testimonials .testimonials-details div {
         flex-wrap: wrap;
         gap: 20px;
     }
 
-    .about-benefits .benefits-details p,
-    .about-courses .courses-details p,
-    .about-testimonials .testimonials-details p,
-    .about-testimonials .testimonials .testimonial,
-    .about-pricing .pricing-details p,
-    .pricing .monthly,
-    .pricing .yearly {
+    .benefits .benefits-details p,
+    .courses .courses-details p,
+    .testimonials .testimonials-details p,
+    .testimonials .testimonial .card,
+    .pricing .pricing-details p,
+    .card .monthly,
+    .card .yearly {
         width: 100%;
     }
 
-    .about-benefits .benefits .benefit,
-    .about-courses .courses .course {
+    .benefits .benefit .benefit,
+    .courses .course .card {
         width: 100%;
         gap: 20px;
     }
 
-    .about-courses,
-    .about-testimonials {
+    .courses,
+    .testimonials {
         padding: 20px 0;
     }
 
-    .about-courses .courses .course img {
+    .courses .course .card img {
         height: 200px;
     }
 
-    .testimonials .testimonial .user-testimonial,
-    .testimonials .testimonial .user {
+    .testimonial .card .user-testimonial,
+    .testimonial .card .user {
         padding: 10px 15px;
     }
 
-    .about-pricing {
+    .pricing {
         padding: 20px 0;
     }
 
-    .about-pricing .pricing-details .pricing-description {
+    .pricing .pricing-details .pricing-description {
         justify-content: center;
     }
 
-    .pricing {
+    .card {
         padding: 10px;
     }
 
