@@ -432,8 +432,8 @@ main {
 }
 
 .courses .course .card {
-    width: calc((100% - 40px) / 2);
-    padding: 50px;
+    width: calc((100% - 30px) / 2);
+    padding: 30px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -457,13 +457,13 @@ main {
     object-fit: cover;
 }
 
-.card .course-info {
+.course .card .course-info {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.card .course-info .info-1 {
+.course .card .course-info .info-1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -472,14 +472,14 @@ main {
     gap: 15px;
 }
 
-.card .course-info .info-1 div {
+.course .card .course-info .info-1 div {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     color: #4c4c4d;
 }
 
-.card .course-info .info-1 div span {
+.course .card .course-info .info-1 div span {
     padding: 5px 10px;
     border: 1px solid rgba(204, 201, 201, 0.7);
     border-radius: 5px;
@@ -489,26 +489,26 @@ main {
     -o-border-radius: 5px;
 }
 
-.card .course-info .info-1 .instructor {
+.course .card .course-info .info-1 .instructor {
     font-weight: 700;
 }
 
-.card .course-info .info-2 {
+.course .card .course-info .info-2 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
-.card .course-info .info-2 h4 {
+.course .card .course-info .info-2 h4 {
     font-size: 18px;
 }
 
-.card .course-info .info-2 p {
+.course .card .course-info .info-2 p {
     font-size: 13px;
     color: #4c4c4d;
 }
 
-.card .course-info button {
+.course .card .course-info button {
     padding: 10px 0;
     font-weight: 700;
     background-color: rgba(228, 228, 230, 0.73);
@@ -694,7 +694,7 @@ main {
     background-color: var(--mainColor);
 }
 
-.card {
+.pricing .card {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -703,8 +703,8 @@ main {
     background-color: white;
 }
 
-.card .monthly,
-.yearly {
+.pricing .card .monthly,
+.pricing .card .yearly {
     width: calc((100% - 30px) / 2);
     display: flex;
     flex-direction: column;
@@ -719,8 +719,8 @@ main {
     -o-border-radius: 5px;
 }
 
-.card .monthly .price-plan,
-.yearly .price-plan {
+.pricing .card .monthly .price-plan,
+.pricing .card .yearly .price-plan {
     font-size: 18px;
     font-weight: 700;
     border-radius: 5px;
@@ -735,19 +735,19 @@ main {
     -o-border-radius: 5px;
 }
 
-.card .monthly .price span:first-of-type,
-.yearly .price span:first-of-type {
+.pricing .card .monthly .price span:first-of-type,
+.pricing .card .yearly .price span:first-of-type {
     font-size: 48px;
     font-weight: 700;
 }
 
-.card .monthly .price span:last-of-type,
-.yearly .price span:last-of-type {
+.pricing .card .monthly .price span:last-of-type,
+.pricing .card .yearly .price span:last-of-type {
     color: #4c4c4d;
 }
 
-.card .monthly .features,
-.yearly .features {
+.pricing .card .monthly .features,
+.pricing .card .yearly .features {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -759,15 +759,15 @@ main {
     -o-border-radius: 5px;
 }
 
-.card .monthly .features span,
-.yearly .features span {
+.pricing .card .monthly .features span,
+.pricing .card .yearly .features span {
     text-align: center;
     font-weight: 700;
     padding: 30px 0 0 0;
 }
 
-.card .monthly .available-features,
-.yearly .features .available-features {
+.pricing .card .monthly .available-features,
+.pricing .card .yearly .available-features {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -775,8 +775,8 @@ main {
     padding: 30px 15px;
 }
 
-.card .monthly .features .feature,
-.yearly .features .feature {
+.pricing .card .monthly .features .feature,
+.pricing .card .yearly .features .feature {
     display: flex;
     align-items: flex-start;
     gap: 5px;
@@ -791,8 +791,8 @@ main {
     -o-border-radius: 5px;
 }
 
-.card .monthly .feature img,
-.yearly .feature img {
+.pricing .card .monthly .feature img,
+.pricing .card .yearly .feature img {
     box-sizing: content-box;
     width: 15px;
     padding: 2px;
@@ -990,19 +990,21 @@ footer .rights {
     }
 
     .testimonials .testimonial .card {
-        width: calc((100% -30px) / 2);
+        width: calc((100% - 30px) / 2);
     }
 
     .pricing .pricing-details p {
         width: 70%;
     }
 
-    .card {
+    .course .card,
+    .benefit .card,
+    .price .card {
         padding: 2%;
     }
-
-    .card .monthly,
-    .yearly {
+    
+    .pricing .card .monthly,
+    .pricing .card .yearly {
         width: calc((100% - 30px) / 2);
         padding: 2%;
     }
@@ -1011,6 +1013,10 @@ footer .rights {
 @media only screen and (max-width: 900px) {
     .site-image {
         height: 380px;
+    }
+
+    .courses .course-info .info-1 div{
+        width: 100%;
     }
 }
 
@@ -1089,12 +1095,12 @@ footer .rights {
         justify-content: center;
     }
 
-    .card {
+    .pricing .price .card {
         padding: 8%;
     }
 
-    .card .monthly,
-    .yearly {
+    .pricing .card .monthly,
+    .pricing .card .yearly {
         width: 100%;
         padding: 4%;
     }
@@ -1155,13 +1161,13 @@ footer .rights {
     .testimonials .testimonials-details p,
     .testimonials .testimonial .card,
     .pricing .pricing-details p,
-    .card .monthly,
-    .card .yearly {
+    .pricing .card .monthly,
+    .pricing .card .yearly {
         width: 100%;
     }
 
-    .benefits .benefit .benefit,
-    .courses .course .card {
+    .benefits .benefit .card,
+    .courses .course .card{
         width: 100%;
         gap: 20px;
     }
@@ -1188,7 +1194,7 @@ footer .rights {
         justify-content: center;
     }
 
-    .card {
+    .pricing .card {
         padding: 10px;
     }
 
